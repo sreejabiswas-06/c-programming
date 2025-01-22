@@ -1,0 +1,8 @@
+#include<stdio.h>
+int roll_num;
+printf("Enter your roll number");
+scanf("%d",& roll_num);
+if(roll_num==20)
+printf("The specified roll number 20 is present");
+return 0;
+}
