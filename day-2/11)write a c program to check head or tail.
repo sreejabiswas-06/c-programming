@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+char head;
+char h;
+printf("enter character for head");
+scanf("%c",&head);
+if(head=='h')
+printf("head");
+else
+printf("tail");
+return 0;
+}
